@@ -3,7 +3,7 @@
     var debug = false;
 	
 	// for more stricter checking, test for process.node (see https://github.com/MatthewNPM/is-node)
-	var isNode = window === undefined;
+	var isNode = (typeof window === 'undefined');
 
     var root = this;
 
